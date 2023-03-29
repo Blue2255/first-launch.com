@@ -1,0 +1,83 @@
+*{
+    
+    z-index: 99;
+}
+body{
+    background: black;
+}
+#intro{
+    text-align: center;
+    height: 150%;
+    width: auto;
+    background: linear-gradient(to top,rgb(3, 3, 111),rgb(0, 0, 0));
+    color: white;
+}
+#bio{
+    border-bottom: 2px rgb(4, 153, 111) solid ;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: 800;
+}
+#que{
+    color:white;
+    margin: 5px;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+#pic{
+    height: 450px;
+    width: auto;
+    border-bottom-right-radius:3em ;
+    border-top-left-radius:3em ;
+    cursor: pointer;
+    box-shadow: -10px 5px 10px black;
+
+}
+#vid{
+    height: 450px;
+    width: 340px;
+    background: linear-gradient(to top,rgb(3, 3, 111),rgb(0, 0, 0));
+  
+    border-bottom-left-radius:3em ;
+    border-top-right-radius:3em ;
+    cursor: pointer;
+    box-shadow: -10px 5px 10px black;
+
+}
+#vid:hover{
+    scale: 1.01;
+}
+#vid:active{
+    scale: 1.02;
+}
+#pic:hover{
+    scale: 1.01;
+}
+#pic:active{
+    scale: 1.02;
+}
+@media screen and (max-width:600px){
+    #pic{
+        height: 250px;
+        width: auto;
+        border-bottom-right-radius:3em ;
+        border-top-left-radius:3em ;
+        cursor: pointer;
+        box-shadow: -10px 5px 10px black;
+    
+    }
+    #vid{
+        height: 250px;
+        width: auto;
+        border-bottom-right-radius:3em ;
+        border-top-left-radius:3em ;
+        cursor: pointer;
+        box-shadow: -10px 5px 10px black;
+    
+    }
+  
+}
+#mission{
+    margin-top: 5%;
+}
